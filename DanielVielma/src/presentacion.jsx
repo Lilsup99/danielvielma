@@ -1,15 +1,17 @@
 import './intro.css'
 
 
-function Intro() {
+function Intro({ imgSrc }) {
 
   return (
     <>
       <div className="container">
-        <img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="image" />
+        <img src={imgSrc} alt="image" height={270}/>
         <span>
             <h1>Daniel Vielma</h1>
             <h3>Data scientist</h3>
+
+            <p>Soluciones tecnologicas basadas en datos son soluciones de impacto</p>
         </span>
       </div>
 
