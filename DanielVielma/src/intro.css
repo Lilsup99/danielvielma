@@ -1,11 +1,4 @@
-.container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 250px;
-}
-
-.container {
+.containerx {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -13,7 +6,24 @@
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 250px;
   }
+
+  .containerx span{
+    background-color: rgba(0,0,0,0.2);
+    padding-right: 80px;
+    margin-right: 170px;
+    padding-left: 50px;
+
+}
+
+.containerx img{
+    padding-left: 175px;
+    padding-top: 20px;
+}
   
   @keyframes gradient {
     0% {
@@ -77,15 +87,4 @@
 
 
 
-.container span{
-    background-color: rgba(0,0,0,0.2);
-    padding-right: 80px;
-    margin-right: 170px;
-    padding-left: 50px;
 
-}
-
-.container img{
-    padding-left: 175px;
-    padding-top: 20px;
-}

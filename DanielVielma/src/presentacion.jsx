@@ -5,13 +5,13 @@ function Intro({ imgSrc }) {
 
   return (
     <>
-      <div className="container">
+      <div className="containerx">
         <img src={imgSrc} alt="image" height={270}/>
         <span>
             <h1>Daniel Vielma</h1>
             <h3>Data scientist</h3>
 
-            <p>Soluciones tecnologicas basadas en datos son soluciones de impacto</p>
+            <p>Soluciones tecnologicas basadas en datos, son soluciones de impacto</p>
         </span>
       </div>
 
