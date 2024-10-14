@@ -26,32 +26,11 @@ function Social (){
       <div className="face face2">
         <div className="content">
           <h3>
-            <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">
-              _adamdipinto
+            <a href="https://www.linkedin.com/in/daniel-vielma-10bb42269/" target="_blank">
+              Daniel Vielma
             </a>
           </h3>
-          <p>This is where I network and build my professional protfolio.</p>
-        </div>
-      </div>
-    </div>
-    <div className="card">
-      <div className="face face1">
-        <div className="content">
-          <div className="icon">
-            <i className="fa fa-twitter-square" aria-hidden="true" />
-          </div>
-        </div>
-      </div>
-      <div className="face face2">
-        <div className="content">
-          <h3>
-            <a href="https://twitter.com/AdamDipinto" target="_blank">
-              @AdamDipinto
-            </a>
-          </h3>
-          <p>
-            This is where I read news and network with different social groups.
-          </p>
+          <p>Conectar en Linkedin</p>
         </div>
       </div>
     </div>
@@ -66,11 +45,31 @@ function Social (){
       <div className="face face2">
         <div className="content">
           <h3>
-            <a href="https://github.com/atom888" target="_blank">
-              atom888
+            <a href="https://github.com/Lilsup99" target="_blank">
+              Lilsup99
             </a>
           </h3>
-          <p>This is where I share code and work on projects.</p>
+          <p>Portfolio tecnico de proyectos</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="card">
+      <div className="face face1">
+        <div className="content">
+          <div className="icon">
+            <i className="fa fa-google" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+      <div className="face face2">
+        <div className="content">
+          <h3>
+              danvilpra@gmail.com
+          </h3>
+          <p>
+            Email
+          </p>
         </div>
       </div>
     </div>

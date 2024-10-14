@@ -1,4 +1,4 @@
-/* body {
+/* .container {
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -11,10 +11,14 @@
 } */
 
 .container {
-  width: 1000px;
+  margin-top: 15px;
+  width: 500px;
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 11%;
+  gap: 10%;
 }
 
 .container .card {
@@ -34,15 +38,15 @@
 }
 
 .container .card:nth-child(1) .icon {
-  background: #e07768;
+  background: #0c64c5;
 }
 
 .container .card:nth-child(2) .icon {
-  background: #6eadd4;
+  background: #3b0078;
 }
 
 .container .card:nth-child(3) .icon {
-  background: #4aada9;
+  background: #a83226;
 }
 
 
