@@ -132,34 +132,11 @@ i {
 @media (max-width: 650px) {
   .container {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 400px;
+
+    gap: 1px;
   }
 
-  /* Ocultar el contenido de las cards y mostrar solo el logo en pantallas pequeñas */
-  .card {
-    width: auto;
-    height: auto;
-    background: none;
-    box-shadow: none;
-  }
-
-  .card .face {
-    display: none; /* Ocultamos las faces de la card */
-  }
-
-  .card .icon {
-    display: inline-block;
-    font-size: 50px; /* Ajustamos el tamaño del icono */
-    color: #fff;
-  }
-
-  .card .icon i {
-    color: #000; /* Cambia el color del ícono */
-  }
-  
-  /* Mostramos los enlaces como íconos de redes sociales */
-  .card .icon a {
-    text-decoration: none;
-  }
 }
 

@@ -115,6 +115,8 @@ button:focus-visible {
     height: 50vh; /* El contenedor ocupa el 50% de la altura de la ventana */
   }
   
-  
+  .social {
+    width: 500px;
+  }
   
 }

@@ -11,6 +11,6 @@ createRoot(document.getElementById('root')).render(
     <App></App>
     <Intro imgSrc='https://attic.sh/ulx8q81iw6pzv32wc86cuhg97v34'/>
     <About></About>
-    <Social></Social>
+    <Social className="social"></Social>
   </StrictMode>,
 )
