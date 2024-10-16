@@ -98,3 +98,23 @@ button:focus-visible {
     padding: 2em;
   }
 }
+@media screen and (max-width:600px) {
+  html {
+    font-size: 2vw; /* El tamaño de fuente será el 2% del ancho de la pantalla */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* La altura del cuerpo será del 100% de la ventana */
+    width: 100vw;  /* El ancho del cuerpo será del 100% de la ventana */
+  }
+  
+  .container {
+    width: 80vw; /* El contenedor ocupa el 80% del ancho de la ventana */
+    height: 50vh; /* El contenedor ocupa el 50% de la altura de la ventana */
+  }
+  
+  
+  
+}

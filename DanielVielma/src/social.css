@@ -129,48 +129,37 @@ i {
 
 /* Media Queries */
 
-/* Pantallas pequeñas (móviles) */
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .container {
     flex-direction: column;
-    width: 100%;
-    padding-left: 0;
-    gap: 20px; /* Reducir el espacio entre las tarjetas */
+    justify-content: space-around;
   }
 
-  .container .card .face {
-    width: 90%;
-    height: auto; /* Permitir que se ajuste a contenido */
+  /* Ocultar el contenido de las cards y mostrar solo el logo en pantallas pequeñas */
+  .card {
+    width: auto;
+    height: auto;
+    background: none;
+    box-shadow: none;
   }
 
-  .container .card .icon .fa {
-    font-size: 60px; /* Ajustar iconos más pequeños en móviles */
+  .card .face {
+    display: none; /* Ocultamos las faces de la card */
   }
 
-  i {
-    font-size: 60px;
+  .card .icon {
+    display: inline-block;
+    font-size: 50px; /* Ajustamos el tamaño del icono */
+    color: #fff;
+  }
+
+  .card .icon i {
+    color: #000; /* Cambia el color del ícono */
+  }
+  
+  /* Mostramos los enlaces como íconos de redes sociales */
+  .card .icon a {
+    text-decoration: none;
   }
 }
 
-/* Pantallas medianas (tabletas) */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    width: 100%;
-    padding-left: 5%;
-    gap: 40px; /* Ajustar espacio entre tarjetas en tabletas */
-  }
-
-  .container .card .face {
-    width: 80%;
-    height: auto; /* Ajustar altura de las tarjetas */
-  }
-
-  .container .card .icon .fa {
-    font-size: 70px; /* Iconos un poco más grandes en tabletas */
-  }
-
-  i {
-    font-size: 70px;
-  }
-}
