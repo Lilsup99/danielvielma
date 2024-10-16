@@ -9,7 +9,7 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App></App>
-    <Intro imgSrc='https://lh3.googleusercontent.com/a/ACg8ocIqJd-Im2Yqn0gq2-j6i6XQmvvV1FADCfegj4LRVWn6Q5lLaeE=s288-c-no'/>
+    <Intro imgSrc='https://attic.sh/ulx8q81iw6pzv32wc86cuhg97v34'/>
     <About></About>
     <Social></Social>
   </StrictMode>,
